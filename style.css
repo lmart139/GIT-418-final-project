@@ -1,0 +1,205 @@
+/* I set the width to 1280px*/
+html {
+   background-color: darkgray; 
+   width: 1280px;
+}
+
+header, body, section, footer{
+  display: block;
+  width: calc(100% - 3rem);
+  max-width: 900px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: lightgrey;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*header image resizing*/
+header img {
+  width: 200px;
+  padding: 10px;
+}
+
+header h1 {
+  display: none;
+}
+
+/* the nav was easy to setup*/
+nav h2 {
+  display: none;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* nav again*/
+.General {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* nav again*/
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* nav again*/
+nav li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav a, nav a:visited{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border: black solid;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0 0.5rem;
+
+}
+
+#accordion{
+  margin: 1rem auto;
+  background-color: red;
+  display: block;
+  border-radius: 5px;
+}
+
+#accordion h3{
+padding-left: 5px;
+}
+
+#accordion p{
+color: white;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+/* nav again*/
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.slides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(246, 3, 3);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:#060606;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #060606;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #060606;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*footer styles*/
+footer {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+/*styles below are not permentant/*
+
