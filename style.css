@@ -89,7 +89,6 @@ padding-left: 5px;
 }
 
 #accordion p{
-color: white;
 padding-left: 5px;
 padding-right: 5px;
 }
@@ -192,6 +191,27 @@ h1 {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.S p {
+  text-align: center;
+}
+
+.S h3 {
+  color: black;
+  text-align: center;
+}
+/*The shyles for the shoes on display*/
+#dis {
+   display: block;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+}
+/* resizing of the shoe images oon display*/
+#dis img {
+  width: 300px;
+  height: 400px;
+  
 }
 
 /*footer styles*/
